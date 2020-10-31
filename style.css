@@ -1,0 +1,113 @@
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    body {
+    background-color: cornsilk;
+    }
+    
+    h1 {
+        color: rgb(87, 92, 5);
+    }
+    
+    #calculator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 8px solid black;
+        width: 350px;
+        height: 400px;
+        padding-bottom: 20px;
+        background-color: rgb(85, 128, 168);
+    }
+    
+    #screen {
+        margin: 20px;
+        border: 4px solid black;
+        padding: 20px;
+        background-color: rgb(197, 207, 161);
+        width: 250px;
+        height: 50px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    
+    #button-grid {
+        padding-top: 20px;
+        
+    }
+    
+    
+    button {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    
+    button:hover {
+        background-color: rgb(128, 80, 10);
+    }
+    
+    #clearButton:hover {
+        background-color: rgb(128, 80, 10);
+    }
+    
+    #equalsButton:hover {
+        background-color: rgb(128, 80, 10);
+    }
+    
+    
+    .no {
+        width: 58px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: lightgray;
+    }
+    
+    
+    
+    .ops {
+        width: 58px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: rgb(145, 145, 153);
+    }
+    
+    .clicked {
+        width: 180px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: rgb(169, 184, 38);
+    }
+    
+    #equalsButton {
+        width: 180px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: rgb(145, 145, 153);
+    }
+    
+    #clearButton {
+        width: 120px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: rgba(102, 75, 26, 0.993);
+    }
+    
+    
+    
+    button:focus {outline:0;}
